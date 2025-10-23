@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed74f6fb-7a9a-4735-99d3-0e2f3db59fa1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/MathClass/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MathClass/.idea/MathClass.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MathClass/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MathClass/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MathClass/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MathClass/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StringMethods/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StringMethods/.idea/StringMethods.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StringMethods/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StringMethods/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StringMethods/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StringMethods/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,7 +34,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "task/math",
+    "git-widget-placeholder": "task/Strings",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Learning Materials/Java/Java-Basic/MathClass"
   }
