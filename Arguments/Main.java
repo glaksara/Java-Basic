@@ -9,9 +9,14 @@ public class Main {
 
         System.out.print("Enter your age: ");
         int age = scanner.nextInt();
+        scanner.nextLine();  // Get rid of new line character
+
+        System.out.print("Enter your favourite color: ");
+        String color = scanner.nextLine();
 
         System.out.println("Hello " + name);
         System.out.println("Your are " + age + " years old");
+        System.out.println("Your favourite color is: " + color);
 
         scanner.close();
     }
