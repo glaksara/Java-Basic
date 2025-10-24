@@ -1,5 +1,6 @@
 import Constructors.ConstructorMain;
 import Inheritance.InheritanceMain;
+import Overriding.OverridingMain;
 
 public class Main {
     public static void main(String[] args) {
@@ -18,5 +19,6 @@ public class Main {
 
         ConstructorMain.runClass();
         InheritanceMain.runClass();
+        OverridingMain.runClass();
     }
 }
