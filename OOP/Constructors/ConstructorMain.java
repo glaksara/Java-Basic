@@ -9,6 +9,6 @@ public class ConstructorMain {
         Student student1 = new Student("Laksara",
                 29,
                 3.35);
-        System.out.println(student1.name);
+        System.out.println(student1);
     }
 }

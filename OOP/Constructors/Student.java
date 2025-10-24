@@ -12,4 +12,14 @@ public class Student {
         this.gpa = gpa;
         this.isEnrolled = true;
     }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", gpa=" + gpa +
+                ", isEnrolled=" + isEnrolled +
+                '}';
+    }
 }
