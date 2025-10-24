@@ -22,5 +22,6 @@ public class Main {
         InheritanceMain.runClass();
         OverridingMain.runClass();
         AbstractMain.runClass();
+        InheritanceMain.runClass();
     }
 }
