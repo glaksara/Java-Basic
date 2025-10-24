@@ -1,3 +1,4 @@
+import Abstract.AbstractMain;
 import Constructors.ConstructorMain;
 import Inheritance.InheritanceMain;
 import Overriding.OverridingMain;
@@ -20,5 +21,6 @@ public class Main {
         ConstructorMain.runClass();
         InheritanceMain.runClass();
         OverridingMain.runClass();
+        AbstractMain.runClass();
     }
 }
