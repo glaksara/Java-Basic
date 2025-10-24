@@ -45,5 +45,17 @@ public class Main {
         }
 
         scanner.close();
+
+//        2D Arrays
+        String[] fruits2 = {"Apple", "Orange", "banana"};
+        String[] vegetables = {"Potato", "Onion", "Carrot"};
+
+        String[][] groceries = {fruits2, vegetables};
+
+        for (String[] foods1 : groceries) {
+            for (String food : foods1) {
+                System.out.println(food);
+            }
+        }
     }
 }
