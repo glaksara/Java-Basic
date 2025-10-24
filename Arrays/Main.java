@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,6 +22,41 @@ public class Main {
 //        Enhanced for loop (For Each Loop)
         for (String fruit : fruits) {
             System.out.println(fruit);
+        }
+
+//        Empty Arrays
+        String[] foods = new String[3];
+        foods[0] = "pizza";
+
+        System.out.println(foods.length);
+
+//        User Inputs into array
+        Scanner scanner = new Scanner(System.in);
+
+        String[] inputs = new String[3];
+
+        for (int i = 0; i < inputs.length; i++) {
+            System.out.print("Enter a food: ");
+            foods[i] = scanner.nextLine();
+        }
+
+        for (String food : foods) {
+            System.out.println(food);
+        }
+
+        scanner.close();
+
+//        2D Arrays
+        String[] fruits2 = {"Apple", "Orange", "banana"};
+        String[] vegetables = {"Potato", "Onion", "Carrot"};
+
+//First index row, second index column
+        String[][] groceries = {fruits2, vegetables, {"Chicken", "Fish", "Pork"}};
+
+        for (String[] foods1 : groceries) {
+            for (String food : foods1) {
+                System.out.println(food);
+            }
         }
     }
 }
