@@ -1,3 +1,5 @@
+import Constructors.ConstructorMain;
+
 public class Main {
     public static void main(String[] args) {
         Car car = new Car();
@@ -12,5 +14,7 @@ public class Main {
         System.out.println(car.isRunning);
 
         car.drive();
+
+        ConstructorMain.runClass();
     }
 }
