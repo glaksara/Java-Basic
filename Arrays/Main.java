@@ -50,7 +50,8 @@ public class Main {
         String[] fruits2 = {"Apple", "Orange", "banana"};
         String[] vegetables = {"Potato", "Onion", "Carrot"};
 
-        String[][] groceries = {fruits2, vegetables};
+//First index row, second index column
+        String[][] groceries = {fruits2, vegetables, {"Chicken", "Fish", "Pork"}};
 
         for (String[] foods1 : groceries) {
             for (String food : foods1) {
