@@ -1,4 +1,5 @@
 import Constructors.ConstructorMain;
+import Inheritance.InheritanceMain;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,5 +17,6 @@ public class Main {
         car.drive();
 
         ConstructorMain.runClass();
+        InheritanceMain.runClass();
     }
 }
