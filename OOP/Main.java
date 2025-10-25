@@ -3,6 +3,7 @@ import Constructors.ConstructorMain;
 import Inheritance.InheritanceMain;
 import Interface.InterfaceMain;
 import Overriding.OverridingMain;
+import Polymorphism.PolymorphismMain;
 
 public class Main {
     public static void main(String[] args) {
@@ -25,5 +26,6 @@ public class Main {
         AbstractMain.runClass();
         InheritanceMain.runClass();
         InterfaceMain.runClass();
+        PolymorphismMain.runClass();
     }
 }
