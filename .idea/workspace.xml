@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ed74f6fb-7a9a-4735-99d3-0e2f3db59fa1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/EnhancedSwitches/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Files/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Files/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,7 +28,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "task/switches",
+    "git-widget-placeholder": "task/ArrayList",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Learning Materials/Java/Java-Basic/MathClass"
   }
