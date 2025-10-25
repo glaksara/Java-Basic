@@ -1,7 +1,12 @@
 import Abstract.AbstractMain;
+import Aggregation.AggregationMain;
+import Composition.CompositionMain;
 import Constructors.ConstructorMain;
 import Inheritance.InheritanceMain;
+import Interface.InterfaceMain;
 import Overriding.OverridingMain;
+import Polymorphism.PolymorphismMain;
+import Wrapper.WrapperMain;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,5 +28,10 @@ public class Main {
         OverridingMain.runClass();
         AbstractMain.runClass();
         InheritanceMain.runClass();
+        InterfaceMain.runClass();
+        PolymorphismMain.runClass();
+        AggregationMain.runClass();
+        CompositionMain.runClass();
+        WrapperMain.runClass();
     }
 }
