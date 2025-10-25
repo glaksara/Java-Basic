@@ -1,4 +1,5 @@
 import Abstract.AbstractMain;
+import Aggregation.AggregationMain;
 import Constructors.ConstructorMain;
 import Inheritance.InheritanceMain;
 import Interface.InterfaceMain;
@@ -27,5 +28,6 @@ public class Main {
         InheritanceMain.runClass();
         InterfaceMain.runClass();
         PolymorphismMain.runClass();
+        AggregationMain.runClass();
     }
 }
